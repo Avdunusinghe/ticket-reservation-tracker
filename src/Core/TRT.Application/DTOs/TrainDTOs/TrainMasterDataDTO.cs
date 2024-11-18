@@ -1,5 +1,4 @@
-﻿using Amazon.Runtime;
-using TRT.Application.DTOs.Common;
+﻿using TRT.Application.DTOs.Common;
 
 namespace TRT.Application.DTOs.TrainDTOs
 {
@@ -14,6 +13,6 @@ namespace TRT.Application.DTOs.TrainDTOs
         public List<DropDownDTO> Status { get; set; }
         public List<DropDownDTO> AvailableDays { get; set; }
         public List<DropDownDTO> PassengerClasses { get; set; }
-       
+
     }
 }
